@@ -1,0 +1,121 @@
+#wrapper{
+	width: 85%;
+	height: 1500px;
+	background: --yellow;
+	position: relative;
+	margin: auto;
+}
+
+#wallpaper{
+	position: relative;
+	margin: auto;
+	width: 100%;
+
+
+
+}
+#menu{
+	width: 100%;
+	height: 60px;
+	background: red;
+	position: absolute;
+}
+
+#abt{
+	width: 90%;
+	height: 300px;
+	background: ---green;
+	position: absolute;
+	left: 80px;
+	top: 90px;
+}
+
+#bio{
+	width: 90%;
+	height: 900px;
+	background: ---orange;
+	position: absolute;
+	left: 80px;
+	top: 440px;
+
+}
+
+h2{ font-family: Bangers;
+	font-size: 40px;
+	margin-left: 550px;
+	margin-top: -100px;
+	color: white;
+}
+
+p {
+	font-family: Bangers;
+	font-size: 40px;
+	width: 700px;
+	margin-left: 370px;
+	margin-top: 130px;
+	color: white;
+
+}
+
+#icon1{
+	position: absolute;
+	
+	margin-top: -600px;
+}
+
+#icon2{
+	position: absolute;
+	margin-top: -600px;
+	margin-left: 1200px;
+}
+
+#foot{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 1500px;
+	background: blue;
+}
+#prf{
+	width: 200px;
+	height: 200px;
+	background: ---brown;
+	position: absolute;
+	border-radius: 100%;
+	top: 35px;
+	left: 70px;
+}
+
+#fb{
+
+	margin-left: 400px;
+	margin-top: -180px;
+	position: absolute;
+
+}
+
+#ig{
+	margin-left: 600px;
+	margin-top: -180px;
+	position: absolute
+}
+
+#tw{
+	margin-left: 800px;
+	margin-top: -180px;
+	position: absolute
+
+
+}
+
+#ca{
+	margin-left: 1000px;
+	margin-top: -180px;
+	position: absolute
+
+
+}
+
+#me{
+	border-radius: 100%
+}
