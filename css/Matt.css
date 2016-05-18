@@ -6,21 +6,92 @@
 	margin: auto;
 }
 
-#wallpaper{
-	position: relative;
-	margin: auto;
+img {
 	width: 100%;
+	height: 100%;
 
+}
+#tn p{
+	font-size: 75px;
+	font-family: Rokkitt;
+	margin-left: 200px;
+	margin-top: -70px;
+	color: green;
 
-
+}
+#logo{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	margin-top: -140px;
+	margin-left: 420px;
+}
+#search{
+	z-index: 0;
+	width: 1100px;
+	margin-top: -62.52px;
+	margin-left: 493px;
 }
 #menu{
 	width: 100%;
-	height: 60px;
-	background: red;
+	height: 63.5px;
+	background:---red;
 	position: absolute;
+	z-index: 3;
+	
+}
+/* MOBILE MENU */
+.mob {
+	display: inline;
+
+
 }
 
+/*START*/
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 24px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.mob {
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;
+
+}
+
+.mob-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.mob-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.mob-content a:hover {background-color: #f1f1f1}
+
+.mob:hover .mob-content {
+    display: block;
+}
+
+.mob:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+/* ENDING MOBILE MENU */
 #abt{
 	width: 90%;
 	height: 300px;
@@ -44,7 +115,7 @@
 
 }
 
-.text_paragraph >p{
+#bio {
     -webkit-animation: fadi 5s 1;
 }
 @-webkit-keyframes fadi {
