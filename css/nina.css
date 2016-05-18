@@ -186,3 +186,183 @@ h3{
 	margin-top: -62.52px;
 	margin-left: 493px;
 }
+
+@media screen and (max-width:639px){ 
+
+	#wrapper{
+	width: 85%;
+	height: 1500px;
+	background:--- white;
+	position: relative;
+	margin: auto;
+	}
+
+	#menu{
+		width: 100%;
+		height: 63.5px;
+		background:---red;
+		position: absolute;
+		z-index: 3;	
+	}
+
+	#logo{
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		margin-top: -140px;
+		margin-left: 380px;
+	}
+
+	#tn p{
+		font-size: 75px;
+		margin-left: 200px;
+		margin-top: -70px;
+		color: green;
+
+	}
+
+	#foot{
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		top: 1800px;
+		background: #4CAF50;
+	}
+
+	#abt{
+		width: 90%;
+		height: 300px;
+		background: ;
+		position: absolute;
+		left: 80px;
+		top: 90px;
+	}
+
+	#bio{
+		width: 460px;
+		height: 1060px;
+		background: ;
+		position: absolute;
+		left: -30px;
+		top: 400px;
+		text-align: justify;
+	}
+
+	#prf{
+		width: 180px;
+		height: 200px;
+		background: ;
+		position: relative;
+		border-radius: 100%;
+		top: 50px;
+		left: -10px;
+	}
+
+	img{
+		width: 100%;
+		border-radius: 100%;
+		height: 100%;
+	}
+
+	#top{
+		margin-left: 250px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+		background: ;
+		position: absolute;
+		margin-top: -200px;
+		width: 300px;
+		padding: 0px 10px 0px 10px;
+	}
+
+	h3{
+		font-size: 25px;
+		font-family: 'Montserrat', sans-serif;
+		padding: 5px 10px 10px 15px;
+	}
+
+	#pic{
+		width: 50px;
+		height: 50px;
+		margin-left: 15px;
+		margin-top: -20px;
+	}
+
+	#SM{
+		width: 80px;
+		height: 190px;
+		margin: auto;
+		margin-top: -150px;
+		margin-left: 180px;
+		background-color: ;
+	}
+
+	#smile{
+		width: 325px;
+		height: 150px;
+		position: absolute;
+		margin-top: 1100px;
+		margin-left: 30px;
+	}
+	/* MOBILE MENU */
+	.mob {
+		display: inline;
+
+
+	}
+
+	/*START*/
+
+	.dropbtn {
+	    background-color: #4CAF50;
+	    color: white;
+	    padding: 24px;
+	    font-size: 16px;
+	    border: none;
+	    cursor: pointer;
+	}
+
+	.mob {
+	    position: relative;
+	    display: inline-block;
+	    margin-left: 0px;
+
+	}
+
+	.mob-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+	.mob-content a {
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	}
+
+	.mob-content a:hover {background-color: #f1f1f1}
+
+	.mob:hover .mob-content {
+	    display: block;
+	}
+
+	.mob:hover .dropbtn {
+	    background-color: #3e8e41;
+	}
+
+
+	/* ENDING MOBILE MENU */
+
+	#search{
+		z-index: 0;
+		width: 1100px;
+		margin-top: -62.52px;
+		margin-left: 493px;
+	}
+
+}
+	
