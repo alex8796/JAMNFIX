@@ -1,0 +1,128 @@
+#wrapper{
+	width: 85%;
+	height: 1500px;
+	background: ---yellow;
+	position: relative;
+	margin: auto;
+}
+
+#wallpaper{
+	position: relative;
+	margin: auto;
+	width: 100%;
+
+
+
+}
+#menu{
+	width: 100%;
+	height: 60px;
+	background: red;
+	position: absolute;
+}
+
+#abt{
+	width: 90%;
+	height: 300px;
+	background: ---green;
+	position: absolute;
+	left: 10px;
+	top: 90px;
+}
+
+#bio{
+	width: 500px;
+	height: 900px;
+	background: ---orange;
+	position: absolute;
+	left: 20px;
+	top: 480px;
+	color: white;
+	font-family: Bangers;
+	font-size: 30px;
+
+
+}
+
+.text_paragraph >p{
+    -webkit-animation: fadi 5s 1;
+}
+@-webkit-keyframes fadi {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes fadi {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+#foot{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 1100px;
+	background: blue;
+}
+#prf{
+	width: 10px;
+	height: 10px;
+	background: ---brown;
+	position: absolute;
+	border-radius: 100%;
+	top: 35px;
+	left: 10px;
+}
+
+#facebook{
+
+	position: absolute;	
+	height: 90px;
+	width: 90px;
+	margin-top: 100px;
+	right: 80px;
+} 
+
+#instagram{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	margin-top: 100px;
+	right: 130px;
+	
+}
+
+#twitter{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	margin-top: 250px;
+	right: 483px;
+	
+
+
+}
+
+#codeacademy{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	margin-top: 250px;
+	right: 530px;
+
+	
+
+
+}
+
+#me{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+
+
+
+	
+
+}
